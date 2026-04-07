@@ -4,6 +4,24 @@ This repository is a compact research note on Andrej Karpathy's April 2026 idea 
 
 It is a snapshot written on 2026-04-07. It focuses on what Karpathy appears to have actually proposed, the tooling he explicitly mentioned, and the early public ecosystem that formed around the idea.
 
+## Tiny Working Example
+
+Yes. This repo now includes a stricter toy instantiation of Karpathy's pattern under [example/](/Users/johncosnett/PycharmProjects/karpathy-llm-wiki-research/example).
+
+It follows his suggested shape more closely:
+
+- immutable raw sources in [example/raw/](/Users/johncosnett/PycharmProjects/karpathy-llm-wiki-research/example/raw)
+- schema instructions in [example/AGENTS.md](/Users/johncosnett/PycharmProjects/karpathy-llm-wiki-research/example/AGENTS.md)
+- an LLM-maintained markdown wiki in [example/wiki/](/Users/johncosnett/PycharmProjects/karpathy-llm-wiki-research/example/wiki)
+- a content catalog in [example/wiki/index.md](/Users/johncosnett/PycharmProjects/karpathy-llm-wiki-research/example/wiki/index.md)
+- a chronological log in [example/wiki/log.md](/Users/johncosnett/PycharmProjects/karpathy-llm-wiki-research/example/wiki/log.md)
+
+Start here:
+
+- [example/wiki/index.md](/Users/johncosnett/PycharmProjects/karpathy-llm-wiki-research/example/wiki/index.md)
+- [example/wiki/overview.md](/Users/johncosnett/PycharmProjects/karpathy-llm-wiki-research/example/wiki/overview.md)
+- [example/wiki/comparisons/rag-vs-llm-wiki.md](/Users/johncosnett/PycharmProjects/karpathy-llm-wiki-research/example/wiki/comparisons/rag-vs-llm-wiki.md)
+
 ## The Short Version
 
 Karpathy's proposal is not "better RAG" in the narrow sense. It is closer to a compiled knowledge layer for agents:
